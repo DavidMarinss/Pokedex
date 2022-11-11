@@ -5,6 +5,7 @@ body {
   background-size: cover;
   background-color: #010608;
   margin: 0%;
+  object-fit: contain;
 }
 
 h2{
@@ -33,7 +34,7 @@ header nav {
 
 header a {
   text-decoration: none;
-  color: #FFF;
+  color: rgb(219, 226, 3);
   font-size: 1rem;
   margin-right: 1rem;
   font-family: 'Roboto', sans-serif;
@@ -62,7 +63,6 @@ header{
   object-fit: contain;
   margin-top: 15%;
   font-family: 'Roboto', sans-serif;
-
 }
 
 .status {
@@ -187,11 +187,15 @@ header{
   
 }
 .botao{
-  width: 30%;
+  width: 5vw;
   background-color: #212329;
-  height: 25px;
+  height: 2.5vh;
   font-family: 'Roboto', sans-serif;
   border-radius: 2rem;
   text-align: center;
   display: inline-table;
+}
+
+a{
+  color: #ea821b;
 }
