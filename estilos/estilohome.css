@@ -6,8 +6,12 @@ body {
 }
 
 h3 {
+    width: 150vh center;
     text-align: center;
     color: rgb(219, 226, 3);
+    background-color: #212329;
+    border-radius: 2vh;
+  
 }
 
 header img {
@@ -47,16 +51,23 @@ header {
 
 .pokemon {
     width: 310px;
-    height: 250px;
+    height: 230px;
     display: inline-block;
     border-radius: 10px;
-    margin-left: 120px;
-    margin-right: 25px;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
     object-fit: contain;
     margin-top: 10%;
     background-color: #212329;
+    overflow: hidden ;
 }
 
 .pokemon img {
     margin-left: 12%;
+}
+  .pokemon:hover{
+    transition-duration: 0.5s;
+    background-color: #212329;
+    height: 310px; 
+    transition-timing-function: ease-in;
 }
