@@ -54,6 +54,7 @@ h3 {
 
 input {
   margin-left: 1vw;
+  border-radius: 13%;
 }
 
 .coluna {
@@ -76,4 +77,5 @@ form {
 }
 .inputStyle{
   color:rgb(0, 0, 0);
+  border-radius: 13%;
 }
