@@ -1,16 +1,14 @@
 body {
-    /* background-image: url(./imagens/006-Gmax.png); */
-     background-image: url(..//imagens/06.jpg); 
+  background-image: url(..//imagens/06.jpg);
   background-image: no-repeat;
   background-size: cover;
-  background-color: #010608;
   margin: 0%;
 }
 
-h2{
- text-align: center;
- margin-top:10%;
- color: rgb(44, 158, 220);
+h2 {
+  text-align: center;
+  margin-top: 10%;
+  color: rgb(44, 158, 220);
 }
 
 h4 {
@@ -45,12 +43,13 @@ main {
   justify-content: center;
 }
 
-header{
+header {
   width: 100%;
   height: 60px;
   background-color: #212329;
   text-align: center;
 }
+
 .pokemon {
   width: 1075px;
   height: 460px;
@@ -70,16 +69,17 @@ header{
   background-color: #212329;
   height: 460px;
   border-radius: 10px;
-  margin-top: 5%;  
+  margin-top: 5%;
 }
-.card{
+
+.card {
   width: 400px;
   float: right;
-} 
+}
 
 .estilo {
   width: 15%;
-  background-color: black;
+  background-color: #212329;
   height: 20px;
   margin-top: 2%;
   display: block;
@@ -90,7 +90,8 @@ header{
 
 .statusHp {
   width: 45%;
-  background-color: salmon;;
+  background-color: salmon;
+  ;
   height: 20px;
   display: block;
   margin-top: 2%;
@@ -101,7 +102,7 @@ header{
 .numeroHp {
   text-align: center;
   height: 14px;
-  color: rgb(14, 8, 8);
+  color: #212329;
 }
 
 .statusAttack {
@@ -168,6 +169,7 @@ header{
   display: inline-table;
   margin-top: 2%;
 }
+
 .tipo2 {
   width: 30%;
   background-color: salmon;
@@ -178,15 +180,17 @@ header{
   display: inline-table;
 }
 
-.texto{
+.texto {
   color: salmon;
 }
-.link{
+
+.link {
   margin-top: 10%;
   float: right;
-  
+
 }
-.botao{
+
+.botao {
   width: 5vw;
   background-color: #212329;
   height: 2.5vh;
@@ -196,6 +200,6 @@ header{
   display: inline-table;
 }
 
-a{
+a {
   color: salmon;
 }

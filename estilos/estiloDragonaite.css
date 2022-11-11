@@ -1,16 +1,14 @@
 body {
-      /* background-image: url(./imagens/006-Gmax.png); */
-    background-image: url(../imagens/Dragonite.full.1972317.jpg); 
+    background-image: url(../imagens/Dragonite.full.1972317.jpg);
     background-image: no-repeat;
     background-size: cover;
-    background-color: #010608;
     margin: 0%;
 }
 
-h2{
-   text-align: center;
-   margin-top:10%;
-   color: #ea821b;
+h2 {
+    text-align: center;
+    margin-top: 10%;
+    color: #ea821b;
 }
 
 h4 {
@@ -45,12 +43,13 @@ main {
     justify-content: center;
 }
 
-header{
+header {
     width: 100%;
     height: 60px;
     background-color: #212329;
     text-align: center;
 }
+
 .pokemon {
     width: 1075px;
     height: 460px;
@@ -69,16 +68,17 @@ header{
     background-color: #212329;
     height: 460px;
     border-radius: 10px;
-    margin-top: 5%;  
+    margin-top: 5%;
 }
- .card{
+
+.card {
     width: 400px;
     float: right;
-} 
+}
 
 .estilo {
     width: 15%;
-    background-color: black;
+    background-color: #212329;
     height: 20px;
     margin-top: 2%;
     display: block;
@@ -100,7 +100,7 @@ header{
 .numeroHp {
     text-align: center;
     height: 14px;
-    color: rgb(14, 8, 8);
+    color: #212329;
 }
 
 .statusAttack {
@@ -177,24 +177,28 @@ header{
     text-align: center;
     display: inline-table;
 }
-.texto{
-    color: #ea821b;;
+
+.texto {
+    color: #ea821b;
+    ;
 }
-.link{
-   margin-top: 10%;
-   float: right;
-   
+
+.link {
+    margin-top: 10%;
+    float: right;
+
 }
-.botao{
+
+.botao {
     width: 5vw;
     background-color: #212329;
     height: 2.5vh;
     font-family: 'Roboto', sans-serif;
     border-radius: 2rem;
     text-align: center;
-    display: inline-table; 
+    display: inline-table;
 }
 
-a{
+a {
     color: #ea821b;
 }

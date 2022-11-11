@@ -1,31 +1,32 @@
 body {
     background-image: url(../imagens/foto.jpg);
-    /* background-image: url(./imagens/006-Gmax.png); */
     background-image: no-repeat, repeat;
     background-size: cover;
-    background-color: #010608;
     margin: 0%;
 }
-h3{
+
+h3 {
     text-align: center;
     color: rgb(219, 226, 3);
 }
-header img{
+
+header img {
     margin-left: 52rem;
 }
 
-   header nav{
+header nav {
     margin-left: 35rem;
     float: right;
-   }     
-   header a{
+}
+
+header a {
     text-decoration: none;
     color: rgb(219, 226, 3);
     font-size: 1rem;
     margin-right: 1rem;
     font-family: 'Roboto', sans-serif;
 }
-  
+
 
 main {
     display: flex;
@@ -55,6 +56,7 @@ header {
     margin-top: 10%;
     background-color: #212329;
 }
-.pokemon img{
-margin-left: 12%;
+
+.pokemon img {
+    margin-left: 12%;
 }
